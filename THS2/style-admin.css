@@ -1,0 +1,95 @@
+body{
+	background-image: url('images/background.jpg');
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.critical{
+	color: red;
+}
+
+.desc{
+	font-size: 25px;
+}
+.header{
+	background-color: skyblue; /*#FF5600*/
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 10px 5px 15px;
+	height: 40px;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.tab {
+	margin-left: 5%;
+}
+
+.tab1{
+	float: left;
+	margin-left: 10%;
+	margin-top: 10px;
+	display: block;
+}
+
+.tab2{
+	float: left;
+	margin-right: 65px;
+	font-family: Verdana Rounded MT Bold;/*Arial Rounded MT Bold*/
+}
+
+#container{
+	background: rgb(222,239,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(222,239,255,1) 67%, rgba(152,190,222,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(67%,rgba(222,239,255,1)), color-stop(100%,rgba(152,190,222,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(222,239,255,1) 67%,rgba(152,190,222,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(222,239,255,1) 67%,rgba(152,190,222,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(222,239,255,1) 67%,rgba(152,190,222,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(222,239,255,1) 67%,rgba(152,190,222,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#deefff', endColorstr='#98bede',GradientType=0 ); /* IE6-9 */
+	height: auto;
+	width: 1120px;
+	margin-top: 3%;
+	margin-left: 7%;
+	margin-right: 5%;
+	border-radius: 15px 15px 10px 10px;
+	float: left;
+	font-family: Tahoma;
+	/*font-size: 30;*/
+}
+#item-names{
+	margin-left: 20px;
+}
+#upper-tab{
+	background-color: skyblue;
+	height: 40px;
+	width: 1120px;
+	border-radius: 10px 10px 0 0;
+}
+
+#crud-item{
+	float: left;
+	margin-left: 10%;
+	margin-top: 10px;
+	display: block;
+}
+
+.tab3{
+	float: left;
+	margin-right: 65px;
+	font-family: Verdana Rounded MT Bold;
+}
+
+.tab-cont{
+	float: left;
+	margin-right: 65px;
+	font-family: Verdana Rounded MT Bold;
+}
+
+#form-supplier{
+	margin-left: 7%;
+	font-family: Verdana Rounded MT Bold;
+}
+
+#form-supplier input{
+	width: 300px;
+}

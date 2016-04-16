@@ -1,0 +1,34 @@
+body{
+	background-image: url('images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#login{
+	height: 350px;
+	width: 250px;
+	margin : 10% auto;
+	background-color: skyblue;
+}
+
+#logo-login{
+	height: :150px;
+	width: 100%;
+}
+
+.login-text{
+	color: black;
+}
+
+#login-middle{
+	margin-left: 40%;
+}
+
+#usah{
+	margin-left: 10px;
+
+}
+
+.header{
+	
+}
